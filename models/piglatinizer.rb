@@ -20,4 +20,3 @@
       word_leftover + consonants + "ay"
     end
   end
-end 
