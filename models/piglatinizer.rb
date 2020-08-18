@@ -1,4 +1,6 @@
- def piglatinizer(input_str)
+class PigLatinizer
+
+  def piglatinize(input_str)
     input_str.split(" ").map{ |word| piglatinize_word(word)}.join(" ")
   end
 
@@ -20,3 +22,5 @@
       word_leftover + consonants + "ay"
     end
   end
+
+end
