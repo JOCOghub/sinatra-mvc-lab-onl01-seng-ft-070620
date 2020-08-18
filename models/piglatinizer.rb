@@ -1,4 +1,4 @@
- def piglatinize(input_str)
+ def piglatinizer(input_str)
     input_str.split(" ").map{ |word| piglatinize_word(word)}.join(" ")
   end
 
